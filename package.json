@@ -34,7 +34,7 @@
       ]
     },
     "configuration": {
-      "title": "Lil Buddy Settings",
+      "title": "Lil Buddy",
       "properties": {
         "lil-buddy.apiKey": {
           "type": "string",
@@ -43,7 +43,7 @@
         },
         "lil-buddy.model": {
           "type": "string",
-          "default": "gpt-4",
+          "default": "gpt-4o",
           "description": "OpenAI model to use (e.g., gpt-3.5-turbo, gpt-4)"
         }
       }
