@@ -14,6 +14,10 @@
     "onView:lilBuddySidebar"
   ],
   "main": "./extension.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scragz/lil-buddy.git"
+  },
   "contributes": {
     "viewsContainers": {
       "activitybar": [
@@ -66,6 +70,6 @@
     "vscode-test": "^1.5.2"
   },
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.24.0"
   }
 }
