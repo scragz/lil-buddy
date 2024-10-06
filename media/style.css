@@ -1,0 +1,81 @@
+body {
+  font-family: var(--vscode-font-family);
+  font-size: var(--vscode-font-size);
+  color: var(--vscode-foreground);
+  padding: 0;
+  margin: 0;
+}
+
+#chat-container {
+  padding: 10px;
+  overflow-y: auto;
+  height: calc(100vh - 120px);
+}
+
+#input-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--vscode-editor-background);
+  padding: 10px;
+  border-top: 1px solid var(--vscode-panel-border);
+}
+
+#user-input {
+  width: 100%;
+  resize: none;
+  background-color: var(--vscode-input-background);
+  color: var(--vscode-input-foreground);
+  border: 1px solid var(--vscode-input-border);
+  padding: 5px;
+  margin-bottom: 10px;
+  font-family: var(--vscode-font-family);
+  font-size: var(--vscode-font-size);
+  box-sizing: border-box;
+}
+
+#buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  background-color: var(--vscode-button-background);
+  color: var(--vscode-button-foreground);
+  border: none;
+  padding: 6px 12px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: var(--vscode-font-size);
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: var(--vscode-button-hoverBackground);
+}
+
+#clear-button {
+  background-color: transparent;
+  color: var(--vscode-foreground);
+  font-size: 16px;
+  padding: 6px 8px;
+}
+
+#clear-button:hover {
+  background-color: var(--vscode-toolbar-hoverBackground);
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.message.you {
+  background-color: var(--vscode-input-background);
+}
+
+.message.assistant {
+  background-color: var(--vscode-editor-inactiveSelectionBackground);
+}

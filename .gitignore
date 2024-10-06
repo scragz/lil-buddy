@@ -1,0 +1,27 @@
+# Node.js dependencies
+node_modules/
+
+# Output directories
+out/
+dist/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# VSCode settings
+.vscode/
+
+# MacOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Package files
+*.vsix
+
+# Environment files
+.env
