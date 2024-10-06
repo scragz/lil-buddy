@@ -29,7 +29,7 @@
         {
           "type": "webview",
           "id": "lilBuddySidebar",
-          "name": "ChatGPT"
+          "name": "Lil Buddy"
         }
       ]
     },
